@@ -1,33 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+title {
+  font-family: BrunoAce;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 @font-face {
   font-family: BrunoAce;
-  src: url('./Assets/Fonts/BrunoAce-Regular.ttf');
+  src: url("./Assets/Fonts/BrunoAce-Regular.ttf");
 }
 @font-face {
   font-family: merriweatherBlack;
-  src: url('./Assets/Fonts/Merriweather/Merriweather-Black.ttf');
+  src: url("./Assets/Fonts/Merriweather/Merriweather-Black.ttf");
 }
 @font-face {
   font-family: merriweatherBold;
-  src: url('./Assets/Fonts/Merriweather/Merriweather-Bold.ttf');
+  src: url("./Assets/Fonts/Merriweather/Merriweather-Bold.ttf");
 }
 @font-face {
   font-family: merriweatherLight;
-  src: url('./Assets/Fonts/Merriweather/Merriweather-Light.ttf');
+  src: url("./Assets/Fonts/Merriweather/Merriweather-Light.ttf");
 }
 @font-face {
   font-family: merriweatherRegular;
-  src: url('./Assets/Fonts/Merriweather/Merriweather-Regular.ttf');
+  src: url("./Assets/Fonts/Merriweather/Merriweather-Regular.ttf");
+}
+@font-face {
+  font-family: robotoBlack;
+  src: url("./Assets/Fonts/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: robotoBold;
+  src: url("./Assets/Fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: robotoLight;
+  src: url("./Assets/Fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: robotoMedium;
+  src: url("./Assets/Fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: robotoRegular;
+  src: url("./Assets/Fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: robotoThin;
+  src: url("./Assets/Fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: ibmSerifLight;
+  src: url("./Assets/Fonts/IBM-Serif/IBMPlexSerif-Light.ttf");
+}
+@font-face {
+  font-family: ibmSerifMedium;
+  src: url("./Assets/Fonts/IBM-Serif/IBMPlexSerif-Medium.ttf");
+}
+@font-face {
+  font-family: ibmSerifRegular;
+  src: url("./Assets/Fonts/IBM-Serif/IBMPlexSerif-Regular.ttf");
+}
+@font-face {
+  font-family: notoSerifRegular;
+  src: url("./Assets/Fonts/NotoSerif-Regular.ttf");
+}
+@font-face {
+  font-family: ptSerifBold;
+  src: url("./Assets/Fonts/PTSerif-Bold.ttf");
+}
+@font-face {
+  font-family: ptSerifRegular;
+  src: url("./Assets/Fonts/PTSerif-Regular.ttf");
+}
+@font-face {
+  font-family: ptSerifItalic;
+  src: url("./Assets/Fonts/PTSerif-Italic.ttf");
 }

@@ -1,5 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Logo from "../Assets/Logo/MyLabs.png";
+
+import { NavLink } from "react-router-dom";
 function TopNavbar() {
   return (
     <Nav
@@ -9,20 +11,35 @@ function TopNavbar() {
     >
       <div className="web-title me-auto">
         <Nav.Item>
-          <Nav.Link href="/home">
-            <img src={Logo} className="logo"></img>
-          </Nav.Link>
+          <NavLink to="/home">
+            <img src={Logo} className="logo" alt="logo"></img>
+          </NavLink>
         </Nav.Item>
       </div>
+      <button className="ham-btn">
+        <div>
+          <div className="ham-menu"></div>
+          <br />
+          <div className="ham-menu"></div>
+          <br />
+          <div className="ham-menu"></div>
+        </div>
+      </button>
       <div className="web-items">
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Home</Nav.Link>
+          <NavLink to="/home" className="text-decoration-none">
+            Home
+          </NavLink>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Skills</Nav.Link>
+          <NavLink to="/skills" className="text-decoration-none">
+            Skills
+          </NavLink>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="disabled">Experience</Nav.Link>
+          <NavLink to="/experience" className="text-decoration-none">
+            Experience
+          </NavLink>
         </Nav.Item>
       </div>
     </Nav>

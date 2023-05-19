@@ -1,31 +1,30 @@
-.main-container{
-  padding-top:8rem;
+.main-container {
+  padding-top: 8rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
   /* background-image: url('./Assets/space.jpg'); */
   /* background-image: url('./Assets/test.jpg'); */
   /* background-image: url('./Assets/test2.jpg'); */
-    /* background-image: url('./Assets/sun.jpg'); */
-      /* background-image: url('./Assets/space.jpg'); */
-        /* background-image: url('./Assets/sky.jpg'); */
-  background-image: url('./Assets/ocean.jpg');
-          
+  /* background-image: url('./Assets/sun.jpg'); */
+  /* background-image: url('./Assets/space.jpg'); */
+  /* background-image: url('./Assets/sky.jpg'); */
+  background-image: url("./Assets/ocean.jpg");
+
   background-color: #b8d3e4;
-  height:95vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
-.profile-text{
+.profile-text {
   line-height: 0.9;
   text-align: center !important;
   font-family: merriweatherBold;
-  font-size:3vmax;
-  color:wheat;
+  font-size: 3vmax;
+  color: wheat;
   position: absolute;
   margin-top: 28vh;
 }
@@ -34,6 +33,25 @@
   height: 0;
 }
 
-.skills-set{
+.skills-set {
   font-size: 1vmax;
+}
+.footer {
+  padding: 1vmax;
+  color: white;
+  background-color: #000000a8;
+  /* margin: auto; */
+  text-align: center;
+}
+.invalid-route {
+  background-color: #c9c6c6;
+  padding-top: 10vmax;
+  height: 90vh;
+  text-align: center;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .footer {
+    width: 103vw;
+  }
 }
